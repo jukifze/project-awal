@@ -90,7 +90,6 @@ header p{
     padding-left:20px;
 }
 
-/* Card Container */
 
 .card-container{
     display:flex;
@@ -100,7 +99,6 @@ header p{
     margin-top:20px;
 }
 
-/* Card */
 
 .card{
     background:white;
@@ -135,7 +133,6 @@ header p{
     color:#666;
 }
 
-/* Portfolio */
 
 .portfolio-card img{
     width:100%;
@@ -186,7 +183,6 @@ button:hover{
     background:#b08968;
 }
 
-/* Footer */
 
 footer{
     text-align:center;
@@ -195,4 +191,90 @@ footer{
     color:white;
     margin-top:50px;
     font-size:14px;
+}
+
+.register-container{
+    width:40%;
+    margin: 0px auto;
+}
+
+.register-box{
+    background:white;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 8px 18px rgba(0,0,0,0.08);
+}
+
+.register-box h2{
+    text-align:center;
+    color:#5a3e2b;
+    margin-bottom:10px;
+}
+
+.register-box p{
+    text-align:center;
+    color:#666;
+    margin-bottom:20px;
+}
+
+.register-box form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.login-link{
+    text-align:center;
+    margin-top:15px;
+    font-size:14px;
+}
+
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin top: 50px;
+}
+
+.login-box{
+   
+    background:white;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 8px 18px rgba(0,0,0,0.08);
+}
+
+.login-box h2{
+    text-align:center;
+    color:#5a3e2b;
+    margin-bottom:0px;
+}
+
+.login-box p{
+    text-align:center;
+    color:#666;
+    margin-bottom:20px;
+}
+
+.login-box form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.register-link{
+    text-align:center;
+    margin-top:150px;
+    font-size:14px;
+}
+
+.register-link a{
+    color:#5a3e2b;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.register-link a:hover{
+    text-decoration:underline;
 }
