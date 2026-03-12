@@ -1,4 +1,4 @@
-/* Reset */
+
 
 *{
     margin:0;
@@ -13,9 +13,14 @@ body{
     background:#f5efe6;
     color:#333;
     line-height:1.7;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
 }
 
-/* Navbar */
+main{
+    flex:1;
+}
 
 nav{
     background:#5a3e2b;
@@ -240,10 +245,20 @@ footer{
 .contact-card textarea{
     width:100%;
 }
-
+.title-card{
+    background:#6b4423;
+    padding:20px;
+    border-radius:8px;
+    width:100%;
+    margin:0px;
+}
+.title-card h1{
+    color:white;
+    text-align:center;
+}
 .register-container{
     width:40%;
-    margin: 0px auto;
+    margin: 40px auto;
 }
 
 .register-box{
@@ -255,10 +270,9 @@ footer{
 
 .register-box h2{
     text-align:center;
-    color:#5a3e2b;
-    margin-bottom:10px;
+    margin-top:10px;
+    margin-bottom:30px;
 }
-
 .register-box p{
     text-align:center;
     color:#666;
@@ -277,7 +291,34 @@ footer{
     font-size:14px;
 }
 
+.title-box{
+    background:#6b4423;
+    padding:15px 25px;
+    border-radius:8px;
+    width:auto;
+    margin: auto;
+}
+.title-box h1{
+    color:white;
+    margin:0;
+    font-size:28px;
+    text-align:center;
+}
+.subtitle{
+   text-align:center;
+    margin:10px 0 30px 0;
+    margin-top:40px;
+}
+.subtitle::after{
+    content:"";
+    display:block;
+    width:60px;
+    height:3px;
+    background:#d4a373;
+    margin:8px auto 0;
+    border-radius:3px;
 
+}
 .login-container{
     display: flex;
     justify-content: center;
@@ -286,18 +327,20 @@ footer{
 }
 
 .login-box{
-
+    width:400px;
+    margin:auto;
     background:white;
-    padding:35px;
+    padding:40px 30px;
     border-radius:12px;
     box-shadow:0 8px 18px rgba(0,0,0,0.08);
-    width:450px;
+    
 }
 
 .login-box h2{
+    margin-bottom:20px;
     text-align:center;
     color:#5a3e2b;
-    margin-bottom:0px;
+
 }
 
 .login-box p{
@@ -309,7 +352,10 @@ footer{
 .login-box form{
     display:flex;
     flex-direction:column;
-    gap:10px;
+    gap:15px;
+}
+.login-box button{
+    margin-top:60px;
 }
 
 .register-link{

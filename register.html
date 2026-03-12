@@ -5,32 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register - Platform Jasa Kreatif Mahasiswa</title>
 
-    <!-- Link CSS Utama -->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Link Font Poppins -->
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- Navbar -->
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">Tentang</a></li>
-<li><a href="profile.html">Profile</a></li>
-<li><a href="portfolio.html">Portfolio</a></li>
-<li><a href="contact.html">Kontak</a></li>
-<li><a href="login.html">Login</a></li>
-</ul>
-</nav>
 
-<header>
+<div class="title-card">
     <h1>Platform Jasa Kreatif Mahasiswa</h1>
-    <p>Bergabung dan tawarkan jasa kreatifmu</p>
-</header>
+    </div>
+    <p class="subtitle">Bergabung dan tawarkan jasa kreatifmu</p>
 
+
+<!-- Register Section -->
 <div class="register-container">
 
     <div class="register-box">
@@ -39,26 +30,26 @@
 
         <form>
 
-            <label>Nama Lengkap</label>
-            <input type="text" placeholder="Masukkan nama lengkap" required>
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
 
-            <label>Email</label>
-            <input type="email" placeholder="Masukkan email" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email" required>
 
-            <label>No HP</label>
-            <input type="text" placeholder="Masukkan nomor HP">
+            <label for="hp">No HP</label>
+            <input type="text" id="hp" name="hp" placeholder="Masukkan nomor HP">
 
-            <label>Keahlian</label>
-            <input type="text" placeholder="Contoh: Desain Grafis">
+            <label for="skill">Keahlian</label>
+            <input type="text" id="skill" name="skill" placeholder="Contoh: Desain Grafis">
 
-            <label>Password</label>
-            <input type="password" placeholder="Masukkan password">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Masukkan password" required>
 
-            <label>Konfirmasi Password</label>
-            <input type="password" placeholder="Ulangi password">
+            <label for="confirm">Konfirmasi Password</label>
+            <input type="password" id="confirm" name="confirm" placeholder="Ulangi password" required>
 
             <button type="submit">Daftar</button>
-            
+
         </form>
 
         <div class="login-link">
